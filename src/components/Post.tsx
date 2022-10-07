@@ -25,7 +25,7 @@ interface PostProps{       //falando para o ts quais são os tipos dos parametro
 }
 
 
-export function Post({ author, publishedAt, content }:PostProps){   //linkado o ts com os parametros da função
+export function Post({ author, publishedAt, content,}:PostProps){   //linkado o ts com os parametros da função
 
 /*-----------------------------------variável da data de publicação---------------------------------------- */
 
